@@ -175,6 +175,92 @@ MongoDB is a distributed database at its core, so high availability, horizontal 
    );
     ```
 
+# MongoDB with .Net Core
+Make sure to install `MongoDB` for windows and verify `MongoDB` service is running. <br/>
+
+Run the below scripts to setup MongoDB
+```
+Create Database:
+use 'BookstoreDb'
+
+Create Collection:
+db.createCollection('Books')
+
+Insert values:
+db.Books.insertMany([{'Name':'Design Patterns','Price':54.93,'Category':'Computers','Author':'Ralph Johnson'}, {'Name':'Clean Code','Price':43.15,'Category':'Computers','Author':'Robert C. Martin'}])
+
+Fetch value:
+db.Books.find({}).pretty()
+```
+
+## Testing
+- Fork the [git repository](https://github.com/Achi054/MongoDB)
+
+- Run the web api
+- Open any client api tool
+
+    ```
+    Create: /api/books
+    Pass data:
+    [
+        {
+            "id":"5bfd996f7b8e48dc15ff215d",
+            "bookName":"Design Patterns",
+            "price":54.93,
+            "category":"Computers",
+            "author":"Ralph Johnson"
+        },
+        {
+            "id":"5bfd996f7b8e48dc15ff215e",
+            "bookName":"Clean Code",
+            "price":43.15,
+            "category":"Computers",
+            "author":"Robert C. Martin"
+        }
+    ]
+
+    Get: /api/books
+    Returned data: 
+    [
+        {
+            "id":"5bfd996f7b8e48dc15ff215d",
+            "bookName":"Design Patterns",
+            "price":54.93,
+            "category":"Computers",
+            "author":"Ralph Johnson"
+        },
+        {
+            "id":"5bfd996f7b8e48dc15ff215e",
+            "bookName":"Clean Code",
+            "price":43.15,
+            "category":"Computers",
+            "author":"Robert C. Martin"
+        }
+    ]
+
+    Get with id: /api/books/5bfd996f7b8e48dc15ff215d
+    Returned data:
+    {
+        "id":"5bfd996f7b8e48dc15ff215d",
+        "bookName":"Design Patterns",
+        "price":54.93,
+        "category":"Computers",
+        "author":"Ralph Johnson"
+    }
+
+    Update: /api/books/5bfd996f7b8e48dc15ff215d
+    Pass data: 
+    {
+        "id":"5bfd996f7b8e48dc15ff215d",
+        "bookName":"Design Principals",
+        "price":50.50,
+        "category":"Computers",
+        "author":"Martin Folwer"
+    }
+
+    Delete: /api/books/5bfd996f7b8e48dc15ff215e
+    ```
+
 
 
 

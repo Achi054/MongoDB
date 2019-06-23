@@ -1,0 +1,14 @@
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\bin\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.deps.json
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\bin\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.runtimeconfig.json
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\bin\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.runtimeconfig.dev.json
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\bin\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.dll
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\bin\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.pdb
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.csprojAssemblyReference.cache
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.csproj.CoreCompileInputs.cache
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.RazorAssemblyInfo.cache
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.RazorAssemblyInfo.cs
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.AssemblyInfoInputs.cache
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.AssemblyInfo.cs
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.RazorTargetAssemblyInfo.cache
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.dll
+E:\Git Repository\MongoDB\DotNetCoreWithMongoDB\DotNetCoreWithMongoDB\obj\Debug\netcoreapp2.2\DotNetCoreWithMongoDB.pdb
